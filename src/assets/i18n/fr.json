@@ -1,9 +1,18 @@
 {
     "app": {
       "title": "Formation Angular",
-      "text": "text en francais",
+      "text": "home Bonjour",
       "flag": "assets/flags/fr.jpg",
-      "button": "Francais"
+      "button": "Francais",
+      "id":"id",
+      "email":"Email",
+      "prenom": "prenom",
+      "nom":"nom",
+      "avatar":"Avatar",
+      "actions":"Actions",
+      "delete" :"supprimer",
+      "add":"Ajouter Utilisateur",
+      "chooseFile": "choisir un fichier"
     }
   }
   

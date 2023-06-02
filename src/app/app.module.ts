@@ -17,6 +17,10 @@ import{MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from'@angular/material/icon';
 import{MatListModule} from'@angular/material/list';
 import{MatButtonModule} from'@angular/material/button';
+import { PageDashboardComponent } from './page-dashboard/page-dashboard.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { UserListComponent } from './user-list/user-list.component';
+
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http);
@@ -26,7 +30,11 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   declarations: [
     AppComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    PageDashboardComponent,
+    WelcomeComponent,
+    UserListComponent,
+  
   ],
   imports: [
     BrowserModule,

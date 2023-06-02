@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatSidenav } from '@angular/material/sidenav';
+
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,6 @@ import { MatSidenav } from '@angular/material/sidenav';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  @ViewChild('sidenav') sidenav!: MatSidenav;
 
 }
 

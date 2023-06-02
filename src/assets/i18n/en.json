@@ -1,9 +1,17 @@
 {
     "app": {
-      "title": "Formation Angular hello",
+      "title": "Angular Formation ",
+      "text": "Home  Welcome", 
       "flag": "assets/flags/en.png",
-      "text": "text anglais",
-      "button": "anglais"
+      "button": "anglais",
+      "id":"id",
+      "email":"Email",
+      "prenom": "First name",
+      "nom":"Last name",
+      "avatar":"Avatar",
+      "actions":"Actions",
+      "delete" :"delete",
+      "add":"Add User",
+      "chooseFile": "choose File"
     }
   }
-  

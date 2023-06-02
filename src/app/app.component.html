@@ -1,24 +1,15 @@
-<mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <button mat-icon-button>
-        <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
-      </button>
-      <h1>sidebar</h1>
-    </mat-toolbar-row>
-    <mat-sidenav-container>
-      <mat-sidenav #sidenav>
-        <mat-list-item>
-          <a mat-list-item>home</a>
-          <a mat-list-item>about</a>
-          <a mat-list-item>home</a>
-          <a mat-list-item>about</a>
-        </mat-list-item>
-      </mat-sidenav>
-      <mat-sidenav-content>
-        <div style="height: 88vh;">
-          <router-outlet></router-outlet>
-        </div>
-      </mat-sidenav-content>
-    </mat-sidenav-container>
-  </mat-toolbar>
-  
+
+
+<!-- <div class="container">
+  <app-header></app-header>
+  <div class="sidebar">
+    <app-menu></app-menu>
+  </div>
+  <div class="main-content">
+    
+    <p>{{ 'app.text' | translate }}</p>
+  </div>
+</div> -->
+<app-header></app-header>
+<app-page-dashboard></app-page-dashboard>
+
