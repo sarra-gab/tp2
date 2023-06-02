@@ -1,0 +1,9 @@
+{
+    "app": {
+      "title": "Formation Angular",
+      "text": "text en francais",
+      "flag": "assets/flags/fr.jpg",
+      "button": "Francais"
+    }
+  }
+  
